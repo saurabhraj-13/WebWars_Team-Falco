@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f0f0;
+    }
+
+    /* Header */
+    header {
+      background-color: #232f3e;
+      padding: 10px 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Search Bar */
+    .search-bar {
+      display: flex;
+      flex: 1;
+      margin: 0 20px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+    }
+
+    .search-button {
+      background-color: #febd69;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    /* Main Content */
+    main {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .product-title {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .product-price {
+      color: #b12704;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #232f3e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Amazon Clone</div>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Search products...">
+      <button class="search-button">Search</button>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://www.amazon.com/ap/signin">Sign In</a></li>
+        <li><a href="https://www.amazon.com/gp/css/order-history">Orders</a></li>
+        <li><a href="https://www.amazon.com/gp/cart/view.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61JsqY7bVdL._SL1500_.jpg" alt="Product 4 Image">
+      <div class="product-title">Mobile Stand</div>
+      <div class="product-price">Rs. 140.00</div>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/81Dl7qzd40L._SL1500_.jpg" alt="Product 1 Image">
+      <div class="product-title">Boat Speaker</div>
+      <div class="product-price">Rs. 1480.00</div>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/41fqcna8S5L._SX300_SY300_QL70_FMwebp_.jpg" alt="Product 1 Image">
+      <div class="product-title">Wild Stone Perfume</div>
+      <div class="product-price">Rs. 460.00</div>
+    </div>
+    <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/41APKbv+fCL._SY300_SX300_.jpg" alt="Product 1 Image">
+        <div class="product-title">Water bottle</div>
+        <div class="product-price">Rs. 370.00</div>
+      </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/41b5gFGH6vL._SY450_.jpg" alt="Product 1 Image">
+      <div class="product-title">Iphone 16 Pro Max</div>
+      <div class="product-price">Rs. 1,49,999.00</div>
+    </div>
+    <div class="product-card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/819UueOb1+L._AC_UL100_SR100,100_.jpg" alt="Product 1 Image">
+        <div class="product-title">Chocos </div>
+        <div class="product-price">Rs. 230.00</div>
+      </div>
+      <div class="product-card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/pcacc/bau/4l._SY116_CB552316168_.jpg" alt="Product 1 Image">
+        <div class="product-title">Gaming Kit</div>
+        <div class="product-price">Rs. 1200.00</div>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61zWFqX+krL._AC_UY327_FMwebp_QL65_.jpg" height="100px" alt="Product 1 Image">
+        <div class="product-title">Sony Headphone</div>
+        <div class="product-price">Rs. 14,999.00</div>
+      </div>
+      <div class="product-card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/51bDRF35L9L._AC_UL100_SR100,100_.jpg" alt="Product 1 Image">
+        <div class="product-title">Face Wash</div>
+        <div class="product-price">Rs. 210.00</div>
+      </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Amazon Clone. All rights reserved.
+  </footer>
+</body>
+</html>
